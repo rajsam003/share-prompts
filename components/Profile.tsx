@@ -6,8 +6,8 @@ interface ProfileProps {
   name: string
   desc: string
   data: IPrompt[]
-  handleEdit: (post: IPrompt) => void
-  handleDelete: (post: IPrompt) => void
+  handleEdit?: (post: IPrompt) => void
+  handleDelete?: (post: IPrompt) => void
 }
 
 const Profile = ({
